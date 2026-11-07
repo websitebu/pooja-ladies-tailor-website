@@ -47,7 +47,7 @@
     .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
     .hero-note { display: flex; align-items: center; gap: 13px; margin-top: 38px; color: var(--muted); font-size: .75rem; }
     .hero-note::before { width: 42px; height: 1px; background: var(--rose); content: ""; }
-    .hero-image { position: relative; min-height: 520px; background: #ead4c7 url("../images/pooja-tailoring-hero.svg") center 43% / cover no-repeat; }
+    .hero-image { position: relative; min-height: 520px; background: #ead4c7 url("../images/Elegant Couture Atelier Silhouette.png") center 43% / cover no-repeat; }
     .hero-image::after { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(41,37,31,.04), transparent 35%), linear-gradient(0deg, rgba(30,26,22,.12), transparent 30%); content: ""; }
     .image-caption { position: absolute; z-index: 1; right: 8%; bottom: 8%; max-width: 210px; padding: 17px 20px; background: var(--paper); font-family: var(--serif); font-size: 1.05rem; line-height: 1.4; }
 
