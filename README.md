@@ -2,6 +2,8 @@
 
 A static website built with HTML, CSS, and JavaScript. No build tools or package installation are required.
 
+The hero illustration and logo image are stored locally in `assets/images/`.
+
 ## Run locally
 
 Open `index.html` in a browser.

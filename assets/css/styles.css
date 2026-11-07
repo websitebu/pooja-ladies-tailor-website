@@ -30,7 +30,7 @@
     .header { position: sticky; z-index: 20; top: 0; border-bottom: 1px solid var(--line); background: rgba(248, 244, 239, .94); backdrop-filter: blur(12px); }
     .nav { display: flex; min-height: 82px; align-items: center; justify-content: space-between; gap: 32px; }
     .brand { display: flex; align-items: center; gap: 12px; }
-    .brand-mark { display: grid; width: 39px; height: 39px; place-items: center; border: 1px solid var(--rose); border-radius: 50%; color: var(--rose); font-family: var(--serif); font-size: 1.15rem; }
+    .brand-mark { display: block; width: 48px; height: 48px; flex: 0 0 48px; object-fit: contain; mix-blend-mode: multiply; }
     .brand-name { font-family: var(--serif); font-size: 1.07rem; font-weight: 700; line-height: 1.1; }
     .brand-sub { display: block; margin-top: 5px; color: var(--muted); font-family: var(--sans); font-size: .57rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
     .nav-links { display: flex; align-items: center; gap: 30px; color: #514a41; font-size: .77rem; font-weight: 600; }
@@ -47,8 +47,8 @@
     .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
     .hero-note { display: flex; align-items: center; gap: 13px; margin-top: 38px; color: var(--muted); font-size: .75rem; }
     .hero-note::before { width: 42px; height: 1px; background: var(--rose); content: ""; }
-    .hero-image { position: relative; min-height: 520px; background: #d6c6b7 url("https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=1400&q=85") center 43% / cover no-repeat; }
-    .hero-image::after { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(41,37,31,.08), transparent 40%), linear-gradient(0deg, rgba(30,26,22,.20), transparent 35%); content: ""; }
+    .hero-image { position: relative; min-height: 520px; background: #ead4c7 url("../images/pooja-tailoring-hero.svg") center 43% / cover no-repeat; }
+    .hero-image::after { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(41,37,31,.04), transparent 35%), linear-gradient(0deg, rgba(30,26,22,.12), transparent 30%); content: ""; }
     .image-caption { position: absolute; z-index: 1; right: 8%; bottom: 8%; max-width: 210px; padding: 17px 20px; background: var(--paper); font-family: var(--serif); font-size: 1.05rem; line-height: 1.4; }
 
     .trust-row { border-block: 1px solid var(--line); }
