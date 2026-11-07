@@ -121,7 +121,8 @@
     .footer { padding: 30px 0; background: #282b25; color: #f8f4ef; }
     .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
     .footer .brand-sub { color: rgba(248,244,239,.6); }
-    .footer-copy { color: rgba(248,244,239,.65); font-size: .7rem; text-align: right; }
+    .footer-copy { color: rgba(248,244,239,.65); font-size: .7rem; line-height: 1.9; text-align: right; }
+    .footer-owner { color: #f8f4ef; font-family: var(--serif); font-size: .95rem; }
     .footer-copy a { color: #f4c3ae; }
     .back-top { margin-left: 10px; color: #f4c3ae; }
 
